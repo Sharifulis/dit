@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0px;
+}
+body {
+    background: black;
+}
+#admin-box{
+background: yellow;
+color: black;
+width: 50%;
+margin: 5% auto;
+padding: 20px;
+text-align: center;
+}
+input,label {
+  display: block;  
+}
+#admin-box h1{
+font-size: 50px;
+}
+#admin-box h1::after {
+content: "" ;
+display: block;
+border-top: 2px solid black;
+margin: 20px 0;
+}
+
+form{
+
+}
+input{
+
+}
+label{
+font-size: 20px;
+text-transform: uppercase;
+margin: 10px 0px ;
+}
+input{
+width:90% ;
+margin: auto;
+padding: 10;
+font-size: 15px;
+color: red;
+}
+input[type="submit"]{
+background: black;
+color: white;
+margin: 20px auto;
+font-size: 15px;
+text-transform: uppercase;
+border:1px solid black ;
+transition:ease-in-out 0.5s ;
+
+}
+input[type="submit"]:hover{
+background-color:transparent;
+color: black;
+font-weight: bold;
+
+}
+input::placeholder{
+color: red;
+}
+.pg {
+font-size: 18px;
+margin: 20px 0px;
+
+}
+.pg a {
+text-decoration: none;
+color: red;
+text-transform: capitalize;
+background-color: black;
+padding: 5px;
+}
